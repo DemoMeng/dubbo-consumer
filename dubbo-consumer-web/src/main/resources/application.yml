@@ -1,0 +1,17 @@
+server:
+  port: 4141
+
+dubbo:
+  application:
+    name:  dubbo-consumer-1
+  #连接注册中心配置
+  registry:
+    address: zookeeper://localhost:2181
+
+rpc:
+  version: 1.0
+
+
+spring:
+  application:
+    name: spring-application-dubbo-consumer-1
